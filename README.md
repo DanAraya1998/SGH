@@ -45,35 +45,7 @@ cd hospital-management-system
 ### 3. Database Setup 🧱
 
 1. Open MySQL Workbench or your preferred SQL client.
-2. Run the following SQL to create the database:
-```sql
-CREATE DATABASE HospitalSGH;
-```
-3. Use the database:
-```sql
-USE HospitalSGH;
-```
-4. Create the necessary tables. You can write them manually or import them from a provided `.sql` file (add it to the repo if available).
-
-   For example:
-   ```sql
-   CREATE TABLE usuario (
-     id INT AUTO_INCREMENT PRIMARY KEY,
-     nombre_usuario VARCHAR(50) NOT NULL,
-     contraseña VARCHAR(255) NOT NULL
-   );
-
-   CREATE TABLE paciente (
-     id_paciente INT AUTO_INCREMENT PRIMARY KEY,
-     edad INT,
-     peso DOUBLE,
-     estatura DOUBLE,
-     nombre VARCHAR(100)
-   );
-
-   -- Do similar for DOCTOR, CIRUGIAS, TIPOS_CIRUGIA...
-   ```
-
+2. Run the HospitalSGH script. It has some preloaded information, so You can test the functions freely. 
 ### 4. Configure Database Credentials 🔧
 
 Edit the `Conexion.java` file to match your MySQL credentials:
