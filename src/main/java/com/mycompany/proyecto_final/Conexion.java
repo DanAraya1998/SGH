@@ -17,7 +17,8 @@ public class Conexion {
         this.url = "jdbc:mysql://localhost:3306/";
         this.db = "HospitalSGH";
         this.user = "root";
-        this.password = "RPFNDan!998";
+        // Change your password according to your MySQL configuration
+        this.password = "mysql_2025";
         this.driver = "com.mysql.cj.jdbc.Driver";
     }
 
