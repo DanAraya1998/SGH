@@ -66,10 +66,6 @@ this.password = "your_mysql_password";
 - Build and run the project.
 - Use `PanelEntrada` to login or register a new user.
 
-## 🖼️ Screenshots
-
-> Add some GUI screenshots here to show how it works
-
 ## 🤝 Contributing
 
 Pull requests are welcome! If you find any bugs or have suggestions for improvement, feel free to open an issue.
